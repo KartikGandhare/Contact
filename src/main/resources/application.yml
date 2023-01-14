@@ -1,0 +1,20 @@
+server:
+    port: 9393
+
+spring:
+    datasource:
+       driver-class-name: org.h2.Driver
+       password: 
+       url: jdbc:h2:mem:testdb
+       username: kartik
+
+    mvc:
+     view:
+      prefix: /views/
+      suffix: .jsp
+
+app1:
+  messages:
+       saeSuccess: Contact save succesfully
+       savefail: Contact Failed to save
+
